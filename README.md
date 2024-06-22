@@ -28,7 +28,7 @@ simulator.exe C:\acces\path\file.txt   #Windows
 Make sure to replace "access/path/pgm.txt" (respectively "C:\access\path\pgm.tx") with the actual relative path of your <i>file.txt</i> file.
 
 ### Details
-* To properly work, the files in input need to compile correctly. If they don't (<i>e.g.></i> a missing ';'), a result will be displayed, but it may not be accurate. 
+* To properly work, the files in input need to compile correctly. If they don't (<i>e.g.</i> a missing ';'), a result will be displayed, although it may not be accurate. 
 * At least two files need to be present as inputs. It doesn't have a theoretical maximal number of files to compare. 
 * Finally, if there are more than two files, it displays a matrix indicating the distance between each couple of programs input. 
 * At execution, the terminal prints the Dice distance between every pair of files. 
